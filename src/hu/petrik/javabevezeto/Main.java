@@ -8,5 +8,7 @@ public class Main {
         Feladat3.run();
         Feladat4.run();
         Feladat5.run();
+        Feladat6.run();
+        
     }
 }
