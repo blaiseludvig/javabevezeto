@@ -16,6 +16,7 @@ public class Main {
         Feladat10.run();
         Feladat11.run();
         Feladat12.run();
+        Feladat13.run();
 
     }
 }
