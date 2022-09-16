@@ -9,11 +9,8 @@ public class Main {
         Feladat4.run();
         Feladat5.run();
         Feladat6.run();
-<<<<<<< Updated upstream
-        
-=======
         Feladat7.run();
-
->>>>>>> Stashed changes
+        Feladat8.run();
+        
     }
 }
