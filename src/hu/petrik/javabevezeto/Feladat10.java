@@ -11,6 +11,8 @@ public class Feladat10 {
 
         ArrayList<Integer> numbers = new ArrayList<Integer>();
 
+        System.out.println("Adjon meg pozitív egész számokat, amíg az összegük nem lesz nagyobb 100-nál: ");
+
         do {
             System.out.print("Adjon meg pozitív egész számokat: ");
             numbers.add(Integer.parseInt(in.nextLine()));
