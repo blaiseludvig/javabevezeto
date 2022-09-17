@@ -35,6 +35,8 @@ public class Feladat12 {
 
         }
 
+        System.out.print('\n');
+
     }
 
 
