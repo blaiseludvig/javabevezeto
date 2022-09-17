@@ -10,8 +10,6 @@ public class Feladat13 {
     public static void run() {
         int random = new Random().nextInt(100) + 1;
 
-        System.out.println(random);
-
         for (;;) {
             System.out.print("Tippelj! : ");
             int guess = Integer.parseInt(in.nextLine());
