@@ -17,6 +17,8 @@ public class Feladat15 {
             System.out.printf("%f, ", n);
         }
 
+        System.out.print('\n');
+
     }
 
     static double[] squareOddIndexes(double[] arr) {
