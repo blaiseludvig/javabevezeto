@@ -12,14 +12,14 @@ public class Feladat17 {
 
         for (int i = 0; i < arr1.length; i++) {
             // Ez a nyelv egy kalap szar
-            double random = ThreadLocalRandom.current().nextDouble(0, 10 + 1);
+            double random = ThreadLocalRandom.current().nextDouble(0, 10);
             double rounded = new BigDecimal(random).setScale(1, RoundingMode.HALF_UP).doubleValue();
             arr1[i] = rounded;
         }
 
         for (int i = 0; i < arr2.length; i++) {
             // Ez a nyelv egy kalap szar
-            double random = ThreadLocalRandom.current().nextDouble(0, 10 + 1);
+            double random = ThreadLocalRandom.current().nextDouble(0, 10);
             double rounded = new BigDecimal(random).setScale(1, RoundingMode.HALF_UP).doubleValue();
             arr2[i] = rounded;
         }
